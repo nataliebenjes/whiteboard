@@ -5,7 +5,7 @@
 // > battleRobot1.throw();
 // "The battle robot throws the spear ${100} yards at ${200} miles per hour!"
 
-function throw()
+
 
 const battleRobot1 = action("100")("200");
 
