@@ -1,0 +1,29 @@
+> painter1.paints()
+"Paints green!"
+> painter2.paints()
+"Paints yellow!"
+> painter3.paints()
+"Paints red!"
+
+const painter = name => {
+    paints
+}
+
+const paints = (color) => {
+
+    return "Paints ${color}!";
+}
+const painter1 = color("green");
+const painter2 = color("yellow");
+const painter3 = color("red");
+
+///////
+
+
+GOAL:
+painter {
+    name: "painter1";
+    color: paints() => {
+        return paints green"
+    }
+}
