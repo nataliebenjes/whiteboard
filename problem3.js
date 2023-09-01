@@ -5,8 +5,19 @@
 // > battleRobot1.throw();
 // "The battle robot throws the spear ${100} yards at ${200} miles per hour!"
 
+// result:
+// battleRobot1.throw();
+// "The battle robot throws the spear 100 yards at 200 miles per hour!"
 
+function throws (yards) {
+  return function(mph) {
+    return `The battle robot throws the spear ${yards} yards at ${mph} miles per hour!`
+  }
+}
 
-const battleRobot1 = action("100")("200");
+const battleRobot1 = {
+  throws: throws(100)(200)
+}
 
-console.log(battleRobot1.throw())
+console.log(battleRobot1.throws())
+
